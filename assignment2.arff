@@ -1,0 +1,16 @@
+@relation assignment2
+@attribute sony{true,false}
+@attribute bpl{true,false}
+@attribute lg{true,false}
+@attribute samsung{true,false}
+@attribute onida{true,false}
+@data
+true,true,true,false,false
+false,true,false,true,false
+false,true,false,false,true
+true,true,false,true,false
+true,false,false,false,true
+false,true,false,false,true
+true,false,false,false,true
+true,true,true,false,true
+true,true,false,false,true
