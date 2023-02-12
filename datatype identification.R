@@ -1,0 +1,8 @@
+x<-c(2,5,10)
+x1<-c(30+0i,20+0i)
+x3<-c(TRUE,FALSE)
+x2<-c("abcdef")
+print(class(x))
+print(class(x1))
+print(class(x3))
+print(class(x2))

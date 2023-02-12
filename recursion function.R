@@ -1,0 +1,19 @@
+rec=function(n,h,k,i)
+{
+  if(n==i)
+  {
+    return("Fibonacci series")
+  }
+  else
+  {
+    s=h+k
+    i=i+1
+    print(s)
+    rec(n,k,s,i)
+  }
+}
+h=1
+k=1
+i=2
+print(c(h,k))
+rec(5,h,k,i)
